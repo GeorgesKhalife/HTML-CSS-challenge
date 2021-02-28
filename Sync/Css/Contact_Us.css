@@ -1,0 +1,89 @@
+#CONTACTUS{
+    text-align: center;
+    padding-top: 25px;
+    height: 100px;
+    color: rgb(183, 146, 87);
+    font-size: 60px;
+    font-weight: bolder;
+    background: rgb(200, 200, 200, 0.4);
+    margin-bottom: 50px;
+}
+
+#CONTACTUS + form + img {
+    /* border: solid 1px blue; */
+    width: 500px;
+    height: 300px;
+    float: right;
+    display: inline-block;
+    margin-right: 50px;
+    /* margin-left: 50px; */
+}
+
+
+form{
+    /* border: solid 1px blue; */
+    display: inline-block;
+    width: 650px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+input::placeholder{
+    color: rgba(200, 200, 200, 1);
+    font-weight: bolder;
+}
+form input{
+    /* border: solid 1px red; */
+    width: 95%;
+    height: 50px;
+    margin-bottom: 40px;
+    background: rgb(200, 200, 200, 0.4);
+    outline: none;
+    border: solid 1px rgb(200, 200, 200, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+form input:last-child{
+    height: 300px;
+}
+form input:active,form input:focus{
+    background: white;
+}
+form button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: rgb(26, 77, 45);
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    float: right;
+    margin-right: -10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    outline: none;
+}
+form button:hover{
+    background:gray;
+    border: solid 1px gray;
+}
+@media (max-width: 1300px) {
+    form{
+        margin: 50px auto 100px auto;
+        display: block;
+        float:none;
+        width: 807px;
+        /* border: solid 1px red; */
+    }
+    #CONTACTUS + form + img {
+        margin: 0 auto;
+        width: 810px;
+        height: 407px;
+        display: block;
+        float:none;
+        margin-bottom: 150px;
+        /* padding-left: 50px; */
+    }
+}

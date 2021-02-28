@@ -1,0 +1,128 @@
+html, body{
+    background: rgb(226, 226, 226);
+}
+
+#Choosing{
+    width: 100%;
+    height: 300px;
+    /* border: solid 1px blue; */
+    height: 400px;
+    margin-bottom: 50px;
+}
+#Choosing #blocks{
+    /* border: solid 1px purple; */
+    /* clip-path: polygon(100% 0, 100% 100%, 50% 100%, 85% 0); */
+    height: 400px;
+}
+#Choosing #LEFT{
+    display: inline-block;
+    /* border: solid 1px red; */
+    width: 64%;
+    margin-left: 50px;
+}
+#Choosing #LEFT h3{
+    /* border: solid 1px blue; */
+    font-size: 50px;
+    color: rgb(183, 146, 87);
+    font-weight: bolder;
+}
+#Choosing #LEFT #descc{
+    /* border: solid 1px orange; */
+    font-size: 27px;
+    color: gray;
+}
+#Choosing #RIGHT{
+    display: inline-block;
+    width: 45%;
+    height: 400px;
+    background-image: url(https://earthgoods.com/media/cache/child_page/uploads/images/97142b6b6da06d571d0ad39049c3bfcb.jpeg);
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0, 100% 100%, 25% 100%, 50% 0);
+    position: absolute;
+    float:right;
+    right: 0;
+    /* border:solid 1px red; */
+}
+
+table#pluses{
+    width: 100%;
+    /* padding: 75px; */
+    /* border: solid 1px blue; */
+    text-align: left;
+    margin: 75px auto;
+    padding: 0 75px;
+}
+table#pluses tr td{
+    /* border: solid 1px orange; */
+    background: white;
+}
+.plus{
+    width: 100%;
+    height: 500px;
+    /* border: solid 1px red; */
+}
+.back_ground{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: 0.3s;
+    /* filter: brightness(50%); */
+}
+.phrase{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 25px;
+    /* border: solid 1px red; */
+    width: 350px;
+}
+.phrase a{
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.phrase a:hover{
+    color: goldenrod;
+}
+.read_more{
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 25px;
+
+}
+.read_more a{
+    text-decoration: none;
+    color: #59c0b8;
+    font-weight: lighter;
+}
+.read_more a:hover{
+    text-decoration: underline;
+}
+.ctn{
+    display: none;
+    /* border: solid 1px blue; */
+    width: 100px;
+    height: 100px;
+    /* margin-top: -100px; */
+    margin: 0 auto 0 auto;
+    padding-top: 120px;
+    cursor: pointer;
+    /* transition: 0.4s; */
+}
+.ctn span:nth-child(1){
+    margin-top: 48px;
+    width: 98px;
+    position: absolute;
+    border: solid 1.2px white;
+    background: white;
+    border-radius: 15px;
+}
+.ctn span:nth-child(2){
+    margin-top: 48px;
+    width: 98px;
+    position: absolute;
+    border: solid 1.2px white;
+    background: white;
+    transform: rotate(90deg);
+    border-radius: 15px;
+}

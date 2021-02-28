@@ -1,0 +1,42 @@
+#Choosing{
+    width: 100%;
+    height: 500px;
+    /* border: solid 1px blue; */
+    height: 400px;
+    margin-bottom: 50px;
+}
+#Choosing #blocks{
+    /* border: solid 1px purple; */
+    /* clip-path: polygon(100% 0, 100% 100%, 50% 100%, 85% 0); */
+    height: 400px;
+}
+#Choosing #LEFT{
+    display: inline-block;
+    /* border: solid 1px red; */
+    width: 64%;
+    margin-left: 50px;
+}
+#Choosing #LEFT h3{
+    /* border: solid 1px blue; */
+    font-size: 50px;
+    color: rgb(183, 146, 87);
+    font-weight: bolder;
+}
+#Choosing #LEFT #descc{
+    /* border: solid 1px orange; */
+    font-size: 27px;
+    color: gray;
+}
+#Choosing #RIGHT{
+    display: inline-block;
+    width: 45%;
+    height: 400px;
+    background-size: 100% 400px;
+    background-image: url(https://earthgoods.com/media/cache/child_page/uploads/images/24241308b522f5671daf269ba037f52e.png);
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0, 100% 100%, 30% 100%, 70% 0);
+    position: absolute;
+    float:right;
+    right: 0;
+    /* border:solid 1px red; */
+}

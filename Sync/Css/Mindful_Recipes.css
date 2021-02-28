@@ -1,0 +1,17 @@
+#Mindful_Recipes{
+    width: 550px;
+    margin: 18px auto;
+    /* border: solid 1px red; */
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(183, 146, 87);
+}
+#txt{
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+

@@ -1,0 +1,22 @@
+#img{
+    margin-bottom: 250px;
+}
+h3#our_story{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 55px;
+    color: rgb(183, 146, 87);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Autumn Voyage', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#image_story{
+    width: 100%;
+    background: rgb(226, 226, 226);
+}
+#image_story img{
+    width: 100%;
+}
